@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-# Questions:
+## Questions:
 
 -   I think being a data scientist is about collecting, cleaning, and analyzing data through visualizations.
 
