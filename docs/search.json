@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "Data_Science.html",
+    "href": "Data_Science.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "I think being a data scientist is about collecting, cleaning, and analyzing data through visualizations.\nI think data scientists are more focused on the coding and visualization part of analysis, while statisticians are more concerned with collecting data and performing mathematical analyses.\nI am very new to both, but I would say I have more of a background in statistics than data science.\n\n\n\nAssigning variable y, the density of the Petal.Width column of the iris table.\n\ny &lt;- density(iris$Petal.Width)\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nCreating a plot for variable y."
+  },
+  {
+    "objectID": "Data_Science.html#r-code",
+    "href": "Data_Science.html#r-code",
+    "title": "Data Science",
+    "section": "",
+    "text": "Assigning variable y, the density of the Petal.Width column of the iris table.\n\ny &lt;- density(iris$Petal.Width)\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nCreating a plot for variable y."
+  },
+  {
+    "objectID": "test_rmd.html",
+    "href": "test_rmd.html",
+    "title": "test_mkdwn",
+    "section": "",
+    "text": "This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\nprint(\"cars\")\n\n[1] \"cars\""
+  },
+  {
+    "objectID": "test_rmd.html#r-markdown",
+    "href": "test_rmd.html#r-markdown",
+    "title": "test_mkdwn",
+    "section": "",
+    "text": "This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\nprint(\"cars\")\n\n[1] \"cars\""
+  },
+  {
+    "objectID": "test_rmd.html#including-plots",
+    "href": "test_rmd.html#including-plots",
+    "title": "test_mkdwn",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  }
+]

@@ -1,0 +1,27 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+---
+
+# Questions:
+
+-   I think being a data scientist is about collecting, cleaning, and analyzing data through visualizations.
+
+-   I think data scientists are more focused on the coding and visualization part of analysis, while statisticians are more concerned with collecting data and performing mathematical analyses.
+
+-   I am very new to both, but I would say I have more of a background in statistics than data science.
+
+## R Code:
+Assigning variable y, the density of the Petal.Width column of the iris table.
+```{r var_assign}
+y <- density(iris$Petal.Width)
+
+class(y)
+typeof(y)
+str(y)
+```
+Creating a plot for variable y.
+```{r plot_y, echo=FALSE}
+plot(y)
+```
